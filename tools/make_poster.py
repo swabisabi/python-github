@@ -34,7 +34,7 @@ def build(out_path: str) -> None:
 
     c.setFillColor(HexColor("#222222"))
     c.setFont("Helvetica-Bold", 26)
-    c.drawCentredString(w / 2, h - 290, "Scan to join your town's WhatsApp group")
+    c.drawCentredString(w / 2, h - 290, "Eldoret: scan to join your WhatsApp group")
     size = 270
     c.drawImage(qr_image(HUB_URL), (w - size) / 2, h - 290 - 15 - size, size, size)
 
