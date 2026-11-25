@@ -7,3 +7,8 @@
 
 # downloaded videos
 downloads/
+
+# execution scratch
+.superpowers/
+__pycache__/
+.pytest_cache/
