@@ -1,5 +1,5 @@
 // Set to the Community invite link once Task 4 creates it; shown in the fallback.
-const COMMUNITY_URL = "https://chat.whatsapp.com/FdnzNbDbVrnCrEx82HuH1C";
+const COMMUNITY_URL = "https://chat.whatsapp.com/GBKD57Plcsb9M5Ggtrl9vA";
 
 function communityLink(url) {
   return typeof url === "string" && /^https?:\/\//.test(url) ? url : null;
