@@ -12,3 +12,4 @@ downloads/
 .superpowers/
 __pycache__/
 .pytest_cache/
+data/listings.csv
