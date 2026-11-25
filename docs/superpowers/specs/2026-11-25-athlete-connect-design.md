@@ -18,6 +18,7 @@ Context: a 72-hour hackathon in Kenya. Team of four, one coder. Starts with bask
 - Every listing shown is real, agreed to by its admin, and carries a last-verified date.
 - Works on cheap phones and weak connections, with no app install and no account.
 - The demo shows live groups with real members and real listings, not placeholders.
+- Groups are asked to host a monthly newcomers' session, so a newcomer always has a welcoming first day to aim for. We ask existing groups; we do not host regular games ourselves.
 - One shareable link and a QR poster, so it can spread through schools, clubs, federations and social media.
 
 ## Non-goals
