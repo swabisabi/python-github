@@ -29,8 +29,6 @@ def build(out_path: str) -> None:
     c.setFont("Helvetica-Bold", 44)
     c.drawCentredString(w / 2, h - 105, "New in town?")
     c.drawCentredString(w / 2, h - 160, "Find your team.")
-    c.setFont("Helvetica", 22)
-    c.drawCentredString(w / 2, h - 205, "Mgeni mjini? Tafuta timu yako.")
 
     c.setFillColor(HexColor("#222222"))
     c.setFont("Helvetica-Bold", 26)

@@ -3,7 +3,6 @@
 ## Poster
 - QR to the hub URL: `python tools/make_qr.py <hub-url> poster-qr.svg`
 - Line (English): New in town? Find your team.
-- Line (Swahili): Mgeni mjini? Tafuta timu yako. (have a Swahili speaker check this)
 - Community invite link printed beneath the QR.
 
 ## 3-minute pitch

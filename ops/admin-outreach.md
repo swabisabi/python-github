@@ -32,8 +32,3 @@ Ask every admin a second, separate question: "Would you be willing to host a mon
 Hi [name], I'm [your name] from Athlete Connect Kenya. We help athletes new to a town find teams and runs. Can we list [group name] so newcomers can find you? We'd show your group name, when you play, the level, and one contact you choose. Nothing is listed unless you say yes.
 
 If yes, please reply with: day and time, level, and whether to share your group link or your number. Would you also be willing to host a monthly newcomers' session? Thanks!
-
-### Short message (Swahili, to be checked by a Swahili speaker)
-Habari [jina], mimi ni [jina lako] kutoka Athlete Connect Kenya. Tunawasaidia wanamichezo wapya mjini kupata timu na mazoezi. Tunaomba ruhusa kuorodhesha [jina la kikundi] ili wageni wakupate. Tungeonyesha jina la kikundi, mnapocheza, kiwango, na njia moja ya mawasiliano utakayochagua. Hatuorodheshi bila ridhaa yako.
-
-Ukikubali, tafadhali jibu na: siku na saa, kiwango, na kama tushiriki kiungo cha kikundi au namba yako. Je, ungependa pia kuandaa kikao cha wageni kila mwezi? Asante!

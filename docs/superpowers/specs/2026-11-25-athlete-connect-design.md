@@ -40,7 +40,7 @@ Context: a 72-hour hackathon in Kenya. Team of four, one coder. Starts with bask
 ## Constraints
 
 - 72 hours, four people, one coder. Most of the work is people work: data collection, welcoming, verifying.
-- Users: low-end phones, patchy data, English and Swahili speakers.
+- Users: low-end phones, patchy data, English-speaking athletes (English only; no translation planned).
 - WhatsApp Community and group size limits and features change; the builder checks current limits before setting up groups.
 - No WhatsApp Business API approval is available in the time.
 
@@ -91,7 +91,6 @@ These are helpers. The product still works without them.
 
 - Group names and exact wording of the pinned messages and reply templates.
 - Exact stack and styling of the link hub and script.
-- Swahili wording if time allows.
 - The staleness cutoff for listings.
 
 ## Open for the team

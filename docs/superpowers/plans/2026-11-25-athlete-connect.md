@@ -26,7 +26,7 @@
 2. A listing verified exactly 14 days ago is shown; 15 days ago is not. (Task 1)
 3. A town and sport with no valid listings gets a clear "No verified listings yet" message, not a blank post. (Task 1)
 4. A bad or missing verified date skips that row and reports it, and never crashes the run. (Task 1)
-5. Names with commas in quotes, Swahili text, emoji, or WhatsApp markup characters (`*`, `_`, `~`) parse correctly and don't break the message formatting. (Task 1)
+5. Names with commas in quotes, non-English text, emoji, or WhatsApp markup characters (`*`, `_`, `~`) parse correctly and don't break the message formatting. (Task 1)
 
 ---
 
@@ -165,7 +165,7 @@ git commit -m "feat: listings to WhatsApp message script"
 
 ### Task 7: Poster, pitch and audience plan (Pitch lead, with Coder)
 
-- [ ] **Step 1:** Use `tools/make_qr.py` with the hub URL to create the QR, then lay out a one-page poster with the QR, a line in English and Swahili, and the Community invite link.
+- [ ] **Step 1:** Use `tools/make_qr.py` with the hub URL to create the QR, then lay out a one-page poster with the QR, a line in English, and the Community invite link.
 - [ ] **Step 2:** Write a 3-minute pitch: the newcomer's problem, the live groups, one real athlete's story, and the plan to reach more athletes through schools, clubs, federations and social media.
 - [ ] **Step 3:** Rehearse the demo: join from the QR on a phone, post an intro, receive a connector reply, and show a pinned listing with its verified date.
 - [ ] **Step 4:** Done when the demo runs end to end on a phone using mobile data, twice in a row.
@@ -174,5 +174,5 @@ git commit -m "feat: listings to WhatsApp message script"
 
 ## Self-review
 
-- **Spec coverage:** hub structure (Task 4), newcomer flow and intro template (Tasks 4, 6), listings with verified date and consent (Tasks 1, 5), connector rota (Task 4), link hub, script and QR (Tasks 1–3), success measures (Tasks 5–7). Weekly re-check is in the playbook (Task 4). Swahili wording is on the poster (Task 7); further translation is left to the team.
+- **Spec coverage:** hub structure (Task 4), newcomer flow and intro template (Tasks 4, 6), listings with verified date and consent (Tasks 1, 5), connector rota (Task 4), link hub, script and QR (Tasks 1–3), success measures (Tasks 5–7). Weekly re-check is in the playbook (Task 4). The poster is English only (Task 7); no translation is planned.
 - **Types:** `Listing`, `parse_listings`, `format_message` and `main` are defined in Task 1 and used only there. `groups.json` shape is defined in Task 3 and filled in Task 5.
