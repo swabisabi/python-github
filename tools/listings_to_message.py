@@ -62,6 +62,9 @@ def format_message(town: str, sport: str, listings: list[Listing], today: date,
 
 
 def main(argv: list[str] | None = None) -> int:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):  # redirected output on Windows defaults to cp1252
+            stream.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("csv_path")
     ap.add_argument("--today", default=None, help="YYYY-MM-DD (default: today)")

@@ -1,3 +1,10 @@
+// Set to the Community invite link once Task 4 creates it; shown in the fallback.
+const COMMUNITY_URL = "";
+
+function communityLink(url) {
+  return typeof url === "string" && /^https?:\/\//.test(url) ? url : null;
+}
+
 // Pure helper: keep only groups with a join link, grouped by town then sport.
 function groupByTown(groups) {
   const towns = {};
@@ -26,6 +33,12 @@ async function main() {
   const names = Object.keys(towns).sort();
   if (!names.length) {
     document.getElementById("fallback").hidden = false;
+    const link = communityLink(COMMUNITY_URL);
+    if (link) {
+      const a = document.getElementById("community");
+      a.href = link;
+      a.hidden = false;
+    }
     return;
   }
   for (const town of names) {
@@ -40,5 +53,5 @@ async function main() {
   }
 }
 
-if (typeof module !== "undefined") module.exports = { groupByTown };
+if (typeof module !== "undefined") module.exports = { groupByTown, communityLink };
 else main();

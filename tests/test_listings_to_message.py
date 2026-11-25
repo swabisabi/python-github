@@ -87,3 +87,14 @@ def test_cli_prints_section_per_group(tmp_path, capsys):
     out = capsys.readouterr().out
     assert out.count("=====") == 1
     assert "*Nakuru · Basketball*" in out and "*Eldoret · Basketball*" in out
+
+
+def test_cli_survives_redirected_output_with_emoji(tmp_path):
+    import subprocess
+    path = write_csv(tmp_path, [row("Hoops 🏀")])
+    script = str(Path(__file__).resolve().parent.parent / "tools" / "listings_to_message.py")
+    out = tmp_path / "out.txt"
+    with open(out, "wb") as f:
+        r = subprocess.run([sys.executable, script, path, "--today", "2026-11-27"], stdout=f, stderr=subprocess.PIPE)
+    assert r.returncode == 0, r.stderr.decode(errors="replace")
+    assert "Hoops 🏀" in out.read_text(encoding="utf-8")

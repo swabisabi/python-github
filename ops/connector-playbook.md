@@ -9,6 +9,7 @@
 - [ ] Group info editable by admins only; everyone can post intros.
 - [ ] Pin this intro template in every group:
   `Name: / Sport: / Position: / Level (beginner, club, competitive):`
+- [ ] Put the Community invite link in `COMMUNITY_URL` at the top of `hub/hub.js` (shown on the hub until groups are listed).
 - [ ] A friend outside the team joins from the invite link and posts an intro.
 
 ## Rules
